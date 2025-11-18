@@ -10,3 +10,46 @@ This study compares the healing effects of magnetic compression anastomosis (MCA
 - **Burst pressure measurements**: Data on the burst pressure of the anastomotic sites.
 - **Survival rates**: Survival data for the MCA and control groups.
 - **Analysis scripts**: Code used for data processing, differential gene expression analysis, and pathway enrichment.
+
+
+## Directory Structure
+RatColonicAnastomosisData/
+├── README.md
+├── LICENSE
+├── CITATION.cff
+├── data/
+│   ├── raw/                    # Raw RNA-seq data files
+│   ├── processed/              # Processed RNA-seq data (TPM, log2)
+│   ├── histology/              # Histological images and analysis
+│   ├── burst_pressure/         # Burst pressure measurement data
+│   └── survival/               # Survival rate data
+├── scripts/
+│   ├── preprocessing.py        # Script for data preprocessing
+│   ├── differential_expression.R  # Script for DEG analysis
+│   ├── pathway_enrichment.R    # Script for pathway enrichment analysis
+│   └── visualization.py        # Script for generating figures
+└── docs/
+├── study_protocol.pdf      # Detailed study protocol
+└── ethics_approval.pdf     # Ethics approval document
+
+
+## Data Usage
+The data in this repository are available under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. You are free to use, share, and adapt the data, provided that you give appropriate credit and indicate if changes were made.
+
+## Citing This Data
+If you use any portion of this data or analysis scripts, please cite the original publication:
+
+Xu, S., Liu, L., Xiang, L., Xu, J., Shao, Y., Li, C., Han, Y., Ren, Y., Zhang, M., Li, N., Wang, J., Yan, X., & Lyu, Y. (2025). Advantages of Magnetic Compression in Rat Colonic Anastomosis: A Comparative Study with a Transcriptomic Perspective. *Journal Name*, *Volume*(Issue), *Pages*. DOI: [Update DOI here after publication]
+
+Additionally, please cite this data repository:
+
+Xu et al. (2025). RatColonicAnastomosisData. GitHub. https://github.com/yourusername/RatColonicAnastomosisData
+
+## Contact
+For any questions regarding the data or analysis, please contact the corresponding authors:
+
+- Yi Lyu (luyi169@126.com)
+- Xiaopeng Yan (yanxiaopeng99@163.com)
+
+## Acknowledgments
+We thank the National Key Research and Development Plan (2023YFF0713700) and the National Natural Science Foundation of China Major Research Program (92048202) for their support.
