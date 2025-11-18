@@ -13,24 +13,18 @@ This study compares the healing effects of magnetic compression anastomosis (MCA
 
 
 ## Directory Structure
-RatColonicAnastomosisData/
-├── README.md
-├── LICENSE
-├── CITATION.cff
-├── data/
-│   ├── raw/                    # Raw RNA-seq data files
-│   ├── processed/              # Processed RNA-seq data (TPM, log2)
-│   ├── histology/              # Histological images and analysis
-│   ├── burst_pressure/         # Burst pressure measurement data
-│   └── survival/               # Survival rate data
-├── scripts/
-│   ├── preprocessing.py        # Script for data preprocessing
-│   ├── differential_expression.R  # Script for DEG analysis
-│   ├── pathway_enrichment.R    # Script for pathway enrichment analysis
-│   └── visualization.py        # Script for generating figures
-└── docs/
-├── study_protocol.pdf      # Detailed study protocol
-└── ethics_approval.pdf     # Ethics approval document
+Repository structure
+--------------------
+    .
+    ├── figure/               # All figures used in the paper
+    │   ├── figure1/          # Original images & graphs for Figure 1
+    │   ├── figure2/          # Original images & graphs for Figure 2
+    │   ├── figure3/          # Original images & graphs for Figure 3
+    │   ├── figure4/          # Original images & graphs for Figure 4
+    │   ├── figure5/          # Original images & graphs for Figure 5
+    │   └── figure6/          # Original images & graphs for Figure 6
+    ├── fpkm.xls              # Normalised expression matrix (FPKM values)
+    └── seq_template.xlsx     # Metadata & experimental log sheet
 
 
 ## Data Usage
